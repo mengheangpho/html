@@ -1,0 +1,60 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    padding: 1px;
+    background: rgb(240, 205, 205);
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+main{
+    text-align: center;
+    padding: 20px;
+    background: rgb(243, 191, 191);
+}
+.content-form{
+    width: 100%;
+    display: flex;
+}
+aside{
+    width: 30%;
+    height: 50vh;
+    padding: 30px;
+    background: rgb(241, 178, 178);
+
+}
+.content{
+    height: 50%;
+    flex-direction: column;
+}
+.content1{
+    width: auto;
+    background: rgb(245, 165, 165);
+}
+.content2{
+    background: rgb(235, 104, 104);
+}
+.contentt{
+    height: 50%;
+    display: flex;
+
+}
+.content3{
+    background: rgb(245, 165, 165);
+}
+.content4{
+    background: rgb(241, 137, 137);
+}
+
+
+footer{
+    padding: 10px;
+    background:rgb(243, 137, 137);
+}
